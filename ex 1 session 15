@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int i, n;
+    printf("Value of n: ");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    printf("\nSquare of %d is %d",i+1, squarer(i+1));
+}
+int squarer(int x)
+{
+    int j;
+    j=x+5;
+        
+    return (j);
+}
