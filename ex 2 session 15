@@ -1,0 +1,11 @@
+main()
+{
+    incre();
+    incre();
+    incre();
+}
+incre()
+{
+    char var = 65;
+    printf("\nThe character store %c",var++);
+}
