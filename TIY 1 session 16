@@ -1,0 +1,25 @@
+#include<stdio.h>
+float area(float r)
+    {
+        float ar;
+        ar=r*r*3.14;
+        return ar;
+    }
+    float perimeter(float r)
+    {
+        float pr;
+        pr=(r+r)*3.14;
+        return pr;
+    }
+int main() 
+{
+    float r, ar, pr;
+    r=ar=pr=0;
+    printf("Enter radius: ");
+    scanf("%f",&r);
+    
+    ar = area(r);
+    printf("\nArea: %f",ar);
+    pr = perimeter(r);
+    printf("\nPerimeter: %f",pr);
+}
